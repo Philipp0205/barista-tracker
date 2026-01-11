@@ -1,0 +1,40 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-19ba85589e9-5bb45fe04fdac217": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "d8dcjdpish86ee",
+			"save-password": true,
+			"configuration": {
+				"host": "c9ffqidprriprp.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com",
+				"port": "5432",
+				"database": "d8dcjdpish86ee",
+				"url": "jdbc:postgresql://c9ffqidprriprp.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com:5432/d8dcjdpish86ee",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false"
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

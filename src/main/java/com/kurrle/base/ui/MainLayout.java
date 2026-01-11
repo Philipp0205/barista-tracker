@@ -20,10 +20,10 @@ import com.vaadin.flow.server.menu.MenuConfiguration;
 import com.vaadin.flow.server.menu.MenuEntry;
 import com.vaadin.flow.theme.lumo.LumoUtility;
 
-import jakarta.annotation.security.PermitAll;
+import com.vaadin.flow.server.auth.AnonymousAllowed;
 
 @Layout
-@PermitAll
+@AnonymousAllowed
 public final class MainLayout extends AppLayout {
 
     private final AuthenticatedUser authenticatedUser;
